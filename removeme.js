@@ -14,7 +14,7 @@ const channel = 'DXXXXXXXX';
 const channelKind = ChannelKind.DirectMessage;
 const delay = 1300; // 50 query per 1 minute
 
-let latest = '1720469084.000333';
+let latest = '0';
 
 function deleteMessage(messages) {
     return new Promise((resolve, reject) => {
